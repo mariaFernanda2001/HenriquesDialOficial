@@ -1,0 +1,155 @@
+.topnav {
+    background-color: white;
+    size: 300px;
+    width: 200px;
+}
+
+.topnav img {
+    margin-left: 190px;
+    size: 300px;
+    width: 350px;
+}
+
+@media screen and (max-width: 590px) {
+    .topnav {
+        display: fixed;
+        margin: 0px;
+    }
+    .topnav img {
+        margin-left: 65px;
+        size: 100px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .topnav {
+        display: fixed;
+        margin: 0px;
+    }
+    .topnav img {
+        margin-left: 70px;
+        size: 100px;
+        width: 200px;
+    }
+}
+
+.exemplos h2 {
+    text-align: center;
+}
+
+.exemplos img {
+    margin-left: 170px;
+    size: 100px;
+    width: 400px;
+}
+
+@media screen and (max-width: 590px) {
+    .exemplos h2 {
+        display: flex;
+    }
+    .exemplos img {
+        display: fixed;
+        margin-left: 70px;
+        size: 110px;
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .exemplos h2 {
+        display: flex;
+    }
+    .exemplos img {
+        display: fixed;
+        margin-left: 70px;
+        size: 110px;
+        width: 210px;
+    }
+}
+
+.informacoes {
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+@media (max-width:600px) {
+    .informacoes {
+        display: fixed;
+        font-size: 13px;
+        text-align: center;
+        margin: 0px;
+    }
+}
+
+.endereco {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .endereco {
+        display: fixed;
+        font-size: 13px;
+        margin: 0px;
+    }
+}
+
+.horario {
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin: 0px;
+}
+
+@media (max-width:600px) {
+    .horario {
+        display: fixed;
+        font-size: 13px;
+        margin: 0px;
+    }
+}
+
+.agendamento {
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin: 0px;
+}
+
+@media (max-width:375px) {
+    .agendamento {
+        display: fixed;
+        font-size: 13px;
+        margin: 0px;
+    }
+}
+
+.footer {
+    text-align: center;
+    background-color: white;
+    margin-left: 0px;
+}
+
+.footer img {
+    align-items: center;
+    margin: 0px;
+    size: 90px;
+    width: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        background-color: white;
+        margin-left: 0px;
+    }
+    .footer h2 {
+        display: flex;
+    }
+    .footer img {
+        size: 60px;
+        width: 50px;
+    }
+}
